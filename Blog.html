@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | RohitMane</title>
+    <script src="https://kit.fontawesome.com/c9009a91a0.js" crossorigin="anonymous"></script>
+    <style>
+         html {
+  font-family: "Poppins", sans-serif;
+}
+:root{
+  --primary-color:#F50057;
+  --background-color:#f3f4f6;
+  --Prussian-Blue:#1c3548;
+  --Sonic-Silver:#71787C;
+  --Charcoal-color:#334155;
+}
+body {
+  margin: auto;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.Blog{
+    margin: 0px auto;
+}
+.head {
+  height: auto;
+  padding: 25px 16px;
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head ul {
+  font-weight: bold;
+  display:flex;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: white;
+}
+
+.head li {
+  padding: 0px 1rem;
+  font-size: 1.1rem;
+  height: auto;
+  color: white;
+
+  list-style-type: none;
+
+  text-transform: capitalize;
+}
+.head a {
+  
+  text-decoration: none;
+  color: white;
+  
+}
+.head a:hover{
+
+border-bottom: 2px solid white;
+}
+@media(max-width:448px){
+.head{
+  display: block; 
+}
+}
+@media (max-width:448px) {
+  .head ul{
+    display: block;
+    text-align: right;
+    margin-top: 1rem;
+  }
+}
+@media (max-width:448px) {
+  .head li{
+    display:inline;
+    padding: 0px 14px;
+    
+  }
+}
+.color{
+    color: var(--Prussian-Blue);
+}
+
+.blog{
+    margin: 90px auto;
+    
+    padding: 0px 50px
+    
+}
+.coming{
+    margin: 300px auto;
+    text-align: center;
+}
+footer {
+  margin-top: 70px;
+  margin:auto;
+  display: block;
+  text-align: center;
+  background-color:var(--primary-color)  ;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+}
+footer h2 {
+  padding: 1.5rem;
+}
+.socialmedia li {
+  padding: 20px;
+  display: inline-flex;
+}
+.socialmedia a {
+  color: white;
+
+  display: inline;
+  font-size: xx-large;
+
+  text-decoration: none;
+  list-style: none;
+}
+.fa:hover{
+  /* font-size: xx-large; */
+  transform: translate(0px,-5px);
+  transition: 0.7s;
+  /* color: black; */
+}
+.fab:hover{
+  /* font-size: xx-large; */
+  transform: translate(0px,-5px);
+  transition: 0.6s;
+  /* color: black; */
+}
+    </style>
+</head>
+<body>
+    <div class="Blog">
+        <div class="head">
+                <div class="name">
+                    <h2> PORTFOLIO</h2>
+                </div>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="Project.html">project</a></li>
+                    <li><a href="Blog.html">Blogs</a></li>
+                    <!-- <li><a href="#">Portfolio</a></li> -->
+                    <!-- <li><a href="#">Contact</ahe></li> -->
+                </ul>
+            </div>
+            <div class="blog">
+                <h2>My<span class="color">Blogs</span> </h2>
+            </div>
+            <div class="coming">
+            <h3>Coming Soon</h3></div>
+            <footer>
+                <div class="footer">
+                    <h2>HIT ME UP !👋</h2>
+                    <ul class="socialmedia">
+                        <li class="links"><a class="links1" href="https://www.instagram.com/itz_rohitmane/" target="blank__"><i class="fa fa-instagram"></i></a></li>
+                        <li class="links"><a class="links1"          href="https://github.com/rohitmane9022/" target="blank___"><i class="fab fa-github"></i></i></a></li>   
+                        <li class="links"><a class="links1" href="https://www.linkedin.com/in/rohit-mane-89b180207/" target="blank__"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                    <h3>&copy; | 2021 | PORTFOLIO | Made with 🤍 & &lt;&sol;&gt;</h3>
+                </div>
+            </footer>
+        </div>
+</body>
+</html>
