@@ -170,6 +170,7 @@ footer h2 {
   transform: translate(0px,-5px);
   transition: 0.7s;
   /* color: black; */
+  
 }
 .fab:hover{
   /* font-size: xx-large; */
